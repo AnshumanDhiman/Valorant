@@ -11,6 +11,11 @@ h1 {
     color: white;
 }
 
+h2 {
+    color: white;
+    font-family: 'Montserrat', 'serif';
+}
+
 .textLogo {
     position: relative;
     height: 15vh;
@@ -19,8 +24,90 @@ h1 {
     transform: translate(-50%);
 }
 
+
+
 body {
     background-color: #111;
+}
+
+h3 {
+    color:#fff;
+    font-family: 'Montserrat', sans-serif;
+}
+.cardButton:hover {
+    display:inline-block;
+}
+
+.cards {
+    border-radius: 10px;
+    text-align: center;
+    padding: 10% 15%;
+}
+
+.card {
+    background-color: #ff4655;
+    margin-bottom: 30px;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    transition: 1s ;
+}
+
+.card1 {
+    transition: transform 0.5s ease;
+    margin: auto;
+ 
+    height: 60vh;
+    width: 100%;
+    background-image: url("images/val_agents.png");
+    background-position: center; 
+    background-repeat: no-repeat;   
+}
+
+
+
+.card1:hover {
+    -webkit-filter:  blur(2px);
+    filter: blur(2px);
+    transition: .5s ;
+}
+
+.card2 {
+    transition: transform 0.5s ease;
+    margin: auto;
+    height: 60vh;
+    width: 100%;
+    background-image: url("images/val_maps.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.card2:hover {
+
+    -webkit-filter: blur(2px);
+    filter: blur(2px);
+    transition: .5s ;
+}
+
+.card3 {
+    transition: transform 0.5s ease;
+    margin: auto;
+  
+    height: 60vh;
+    width: 100%;
+    background-image: url("images/val_ranks.jpg");
+    background-position: center ;
+    background-repeat: no-repeat;
+}
+
+.card3:hover {
+
+    -webkit-filter:blur(2px);
+    filter: blur(2px);
+    transition: .5s ;
+    
 }
 
 .mainDiv {
@@ -57,12 +144,11 @@ body {
     text-transform: uppercase;
     color: white;
     background-color: #0f1923;
-    
 }
 
-/* @media (min-width: 320px) and (max-width:480px) {
+ @media (min-width: 320px) and (max-width:480px) {
     .img1 {
-        height: 50vh;
+        height: 25vh;
         width : 100%;
     }
-} */
+} 
