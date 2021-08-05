@@ -1,154 +1,172 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-
-
 
 h1 {
-    text-align: center;
-    color: white;
+  text-align: center;
+  color: white;
 }
 
-h2 {
-    color: white;
-    font-family: 'Montserrat', 'serif';
+.guide {
+    font-family: "Montserrat", "sans-serif";
+  color: white;
+ 
+}
+
+.specs {
+    color: #ff4655;
+    font-weight: 400;
+    font-variant:small-caps;
+}
+
+.jett {
+    height: 100vh;  
+    border-radius: 10px;
+    float: left;
+    margin: 0 2%;
+    box-shadow: 10px 10px 8px #0f1923;
+}
+
+a {
+    text-decoration: none;
+    color:#196fc5;  
+}
+
+a:hover {
+    color: rgb(173, 173, 23);
 }
 
 .textLogo {
-    position: relative;
-    height: 15vh;
-    width: 10%;
-    left: 50%;
-    transform: translate(-50%);
+  position: relative;
+  height: 15vh;
+  width: 10%;
+  left: 50%;
+  transform: translate(-50%);
 }
 
-
-
 body {
-    background-color: #111;
+  background-color: #111;
 }
 
 h3 {
-    color:#fff;
-    font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
 }
 .cardButton:hover {
-    display:inline-block;
+  display: inline-block;
 }
 
 .cards {
-    border-radius: 10px;
-    text-align: center;
-    padding: 10% 15%;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10% 15%;
 }
 
 .card {
-    background-color: #ff4655;
-    margin-bottom: 30px;
+  background-color: #ff4655;
+  margin-bottom: 30px;
 }
 
 .card:hover {
-    transform: scale(1.1);
-    transition: 1s ;
+  transform: scale(1.1);
+  transition: 1s;
 }
 
 .card1 {
-    transition: transform 0.5s ease;
-    margin: auto;
- 
-    height: 60vh;
-    width: 100%;
-    background-image: url("images/val_agents.png");
-    background-position: center; 
-    background-repeat: no-repeat;   
+  transition: transform 0.5s ease;
+  margin: auto;
+  height: 60vh;
+  width: 100%;
+  background-image: url("images/val_agents.png");
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-
-
 .card1:hover {
-    -webkit-filter:  blur(2px);
-    filter: blur(2px);
-    transition: .5s ;
+  -webkit-filter: blur(2px);
+  filter: blur(2px);
+  transition: 0.5s;
+}
+.sMedia {
+  transition: transform 0.5s ease;
+  padding: 2% 2%;
+}
+.sMedia:hover {
+  transform: scale(1.1);
 }
 
 .card2 {
-    transition: transform 0.5s ease;
-    margin: auto;
-    height: 60vh;
-    width: 100%;
-    background-image: url("images/val_maps.png");
-    background-position: center;
-    background-repeat: no-repeat;
+  transition: transform 0.5s ease;
+  margin: auto;
+  height: 60vh;
+  width: 100%;
+  background-image: url("images/val_maps.png");
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-
 .card2:hover {
-
-    -webkit-filter: blur(2px);
-    filter: blur(2px);
-    transition: .5s ;
+  -webkit-filter: blur(2px);
+  filter: blur(2px);
+  transition: 0.5s;
 }
 
 .card3 {
-    transition: transform 0.5s ease;
-    margin: auto;
-  
-    height: 60vh;
-    width: 100%;
-    background-image: url("images/val_ranks.jpg");
-    background-position: center ;
-    background-repeat: no-repeat;
+  transition: transform 0.5s ease;
+  margin: auto;
+
+  height: 60vh;
+  width: 100%;
+  background-image: url("images/val_ranks.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .card3:hover {
-
-    -webkit-filter:blur(2px);
-    filter: blur(2px);
-    transition: .5s ;
-    
+  -webkit-filter: blur(2px);
+  filter: blur(2px);
+  transition: 0.5s;
 }
 
 .mainDiv {
-    height: 100vh;
-    width: 100%;
-    position: relative;
+  height: 100vh;
+  width: 100%;
+  position: relative;
 }
 .insideDiv {
-    position: absolute;
-    top:50%;
-    left:50%;
-    transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .img1 {
-    height: 100vh;
-    width: 100%;
+  height: 100vh;
+  width: 100%;
 }
 
 .btn {
-    padding: 2% 2%;
-    height: 50px;
-    width: 250px;
-    font-family: 'Roboto', serif;
-    border:1px solid white;
-    color: white;
-    transition-duration : 0.5s ;
-    text-transform: uppercase;
-    background-color: #ff4655;
-    box-shadow: 10px 10px 8px #0f1923;
-    
-
+  padding: 2% 2%;
+  height: 50px;
+  width: 250px;
+  font-family: "Roboto", serif;
+  border: 1px solid white;
+  color: white;
+  transition-duration: 0.5s;
+  text-transform: uppercase;
+  background-color: #ff4655;
+  box-shadow: 10px 10px 8px #0f1923;
 }
 .btn:hover {
-    text-transform: uppercase;
-    color: white;
-    background-color: #0f1923;
+  text-transform: uppercase;
+  color: white;
+  background-color: #c5c5c5;
 }
 
- @media (min-width: 320px) and (max-width:480px) {
-    .img1 {
-        height: 25vh;
-        width : 100%;
-    }
-} 
+@media (min-width: 320px) and (max-width: 480px) {
+  .img1 {
+    height: 25vh;
+    width: 100%;
+  }
+}
