@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  overflow-x: hidden; 
 }
 
 h1 {
@@ -35,7 +36,7 @@ a {
 }
 
 a:hover {
-    color: rgb(173, 173, 23);
+    color: rgb(189, 189, 33);
 }
 
 .textLogo {
@@ -164,9 +165,13 @@ h3 {
   background-color: #c5c5c5;
 }
 
-@media (min-width: 320px) and (max-width: 480px) {
+
+@media (max-width: 767px) {
   .img1 {
     height: 25vh;
+    width: 100%;
+  }
+  .jett {
     width: 100%;
   }
 }
