@@ -165,6 +165,14 @@ h3 {
   background-color: #c5c5c5;
 }
 
+.blog-content{
+  margin:2rem 0;
+  color:whitesmoke;
+}
+
+.row-gap{
+  margin:3rem 0;
+}
 
 @media (max-width: 767px) {
   .img1 {
